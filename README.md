@@ -21,6 +21,17 @@ Traefik Ingress Controller
 └── /app2 → app2-service → nginx pod
 ---
 
+## 🌐 Live Application URLs
+
+The applications are accessible using the EC2 public IP:
+
+- **App1** 👉 http://18.60.112.161/app1  
+- **App2** 👉 http://18.60.112.161/app2  
+
+> Note: These URLs work as long as the EC2 instance is running and the public IP remains unchanged.
+
+---
+
 ## 📂 Kubernetes Manifests
 
 | File | Description |
